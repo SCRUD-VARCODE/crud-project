@@ -1,4 +1,4 @@
-package com.crudproject.base.code;
+package com.crudproject.base;
 
 import lombok.Builder;
 import lombok.Getter;

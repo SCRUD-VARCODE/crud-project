@@ -1,7 +1,5 @@
-package com.crudproject.base.status;
+package com.crudproject.base;
 
-import com.crudproject.base.code.BaseErrorCode;
-import com.crudproject.base.code.ErrorReasonDTO;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import org.springframework.http.HttpStatus;

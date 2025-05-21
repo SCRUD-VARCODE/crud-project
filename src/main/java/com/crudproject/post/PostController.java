@@ -1,8 +1,5 @@
-package com.crudproject.controller;
+package com.crudproject.post;
 
-import com.crudproject.dto.PostRequestDto;
-import com.crudproject.dto.PostResponseDto;
-import com.crudproject.service.PostService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

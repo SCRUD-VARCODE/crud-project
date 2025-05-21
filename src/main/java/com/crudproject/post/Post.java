@@ -1,4 +1,4 @@
-package com.crudproject.entity;
+package com.crudproject.post;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

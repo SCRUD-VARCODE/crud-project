@@ -1,12 +1,8 @@
-package com.crudproject.service;
+package com.crudproject.post;
 
-import com.crudproject.base.exception.ExceptionHandler;
-import com.crudproject.base.status.ErrorStatus;
-import com.crudproject.dto.PostRequestDto;
-import com.crudproject.dto.PostResponseDto;
-import com.crudproject.entity.Post;
-import com.crudproject.repository.PostRepository;
-import com.crudproject.utils.generator.SnowflakeGenerator;
+import com.crudproject.base.ExceptionHandler;
+import com.crudproject.base.ErrorStatus;
+import com.crudproject.utils.SnowflakeGenerator;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

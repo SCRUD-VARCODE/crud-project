@@ -1,4 +1,4 @@
-package com.crudproject.utils.generator;
+package com.crudproject.utils;
 
 public class SnowflakeGenerator {
 

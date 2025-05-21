@@ -1,4 +1,4 @@
-package com.crudproject.base.code;
+package com.crudproject.base;
 
 public interface BaseErrorCode {
     ErrorReasonDTO getReason();

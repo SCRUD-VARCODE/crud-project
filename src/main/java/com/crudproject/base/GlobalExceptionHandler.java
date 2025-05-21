@@ -1,7 +1,5 @@
-package com.crudproject.base.advice;
+package com.crudproject.base;
 
-import com.crudproject.base.code.ErrorReasonDTO;
-import com.crudproject.base.exception.BaseException;
 import java.time.LocalDateTime;
 import java.util.HashMap;
 import java.util.Map;

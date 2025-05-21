@@ -1,4 +1,4 @@
-package com.crudproject.utils.generator;
+package com.crudproject.utils;
 
 public class SnowflakeWorker {
     private final long twepoch = 1715759245000L; // 2025-05-15

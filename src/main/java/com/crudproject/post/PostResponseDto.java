@@ -1,4 +1,4 @@
-package com.crudproject.dto;
+package com.crudproject.post;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

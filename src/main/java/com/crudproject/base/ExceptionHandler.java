@@ -1,6 +1,4 @@
-package com.crudproject.base.exception;
-
-import com.crudproject.base.code.BaseErrorCode;
+package com.crudproject.base;
 
 public class ExceptionHandler extends BaseException {
 
