@@ -1,6 +1,5 @@
 package com.crudproject.entity;
 
-import com.crudproject.utils.generator.SnowflakeId;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
@@ -15,7 +14,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class Post {
     @Id
-    @SnowflakeId
     private Long id;
     private String title;
     private String content;

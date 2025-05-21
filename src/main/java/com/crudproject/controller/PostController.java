@@ -2,7 +2,6 @@ package com.crudproject.controller;
 
 import com.crudproject.dto.PostRequestDto;
 import com.crudproject.dto.PostResponseDto;
-import com.crudproject.entity.Post;
 import com.crudproject.service.PostService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

@@ -6,8 +6,8 @@ import com.crudproject.dto.PostRequestDto;
 import com.crudproject.dto.PostResponseDto;
 import com.crudproject.entity.Post;
 import com.crudproject.repository.PostRepository;
+import com.crudproject.utils.generator.SnowflakeGenerator;
 import lombok.RequiredArgsConstructor;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -31,7 +31,10 @@ public class PostService {
     }
 
     public PostResponseDto savePost(PostRequestDto postDto) {
+        Long snowflakeId = SnowflakeGenerator.generate();
+
         Post postEntity = Post.builder()
+                .id(snowflakeId)
                 .title(postDto.getTitle())
                 .content(postDto.getContent())
                 .build();
